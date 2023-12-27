@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+header{
+	width: 100%; height: 60px;background-color: white; border-bottom: black 1px solid; 
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 18px; width: 65%
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color: black; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: black; color: white
+}
+main{
+	width: 100%; min-height: 100px
+}
+aside{
+	width: 30%; padding: 15px; background-color: #CECECE; min-height: 500px
+}
+.content{
+	width: 70%; padding: 15px; background-color: white; min-height: 500px
+}
+
+
+
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+
+}
+aside ul{
+	padding: 0; margin: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid darkred;
+}
+aside ul li a{
+	padding: 10px; display: block; text-decoration: none; color: #000000
+}
+aside ul li a{
+	background-color: darkred; color: white
+}
+.noidung{
+	text-align: center;
+}
+.noidung{
+	text-decoration: none; color: #666666; fonr-size: 17px; font-weight: bold;
+}
+.noidung a:hover{
+	color: darkred
+}
